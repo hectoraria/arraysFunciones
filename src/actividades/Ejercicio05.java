@@ -15,8 +15,8 @@ public class Ejercicio05 {
 
 		Random rd = new Random();
 
-		for (int i = 1; i < fila; i++) {
-			for (int j = 1; j < columna; j++) {
+		for (int i = 0; i < fila; i++) {
+			for (int j = 0; j < columna; j++) {
 				tabla[i][j] = rd.nextInt(100, 1000);
 			}
 		}
